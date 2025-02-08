@@ -5,3 +5,5 @@
 /setworldspawn
 /kill
 /give @p minecraft:command_block
+/summon minecraft:painting
+/summon pig

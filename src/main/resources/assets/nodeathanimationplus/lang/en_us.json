@@ -1,0 +1,5 @@
+{
+  "text.autoconfig.nodeathanimationsplus.option.poofParticles" : "Poof Particles",
+  "text.autoconfig.nodeathanimationsplus.option.deathAnimation" : "Death Animation",
+  "text.autoconfig.nodeathanimationsplus.option.deathFlipDegrees" : "Death Animation angle (degrees)"
+}

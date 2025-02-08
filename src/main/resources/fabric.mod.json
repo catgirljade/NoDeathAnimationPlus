@@ -1,22 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "attackcooldownsync",
+  "id": "nodeathanimationsplus",
   "version": "${version}",
-  "name": "Attack Cooldown Resync",
+  "name": "No Death Animations+",
   "description": "",
   "authors": [],
   "contact": {
-    "repo": "https://github.com/catgirljade/AttackCooldownSunc"
+    "repo": ""
   },
   "license": "All-Rights-Reserved",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "org.jade.hitcooldownsync.ModClient"
+      "org.jade.nodeathanimationsplus.ModClient"
+    ],
+    "modmenu": [
+      "org.jade.nodeathanimationsplus.ModMenuIntegration"
     ]
-
   },
   "mixins": [
+    "nodeathanimsplus.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
